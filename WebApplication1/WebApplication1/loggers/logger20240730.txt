@@ -1,0 +1,109 @@
+2024-07-30 13:11:47.130 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-07-30 13:11:47.570 +03:00 [DBG] Hosting starting
+2024-07-30 13:11:48.519 +03:00 [INF] User profile is available. Using 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-30 13:11:48.733 +03:00 [DBG] Reading data from file 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys\key-138de633-0648-4bc2-ae18-8d318c02d8f1.xml'.
+2024-07-30 13:11:50.573 +03:00 [DBG] Reading data from file 'C:\Users\NOUR-ALSHAM\AppData\Local\ASP.NET\DataProtection-Keys\key-581470d1-0777-4cb2-9d06-4327f023974b.xml'.
+2024-07-30 13:11:50.625 +03:00 [DBG] Found key {138de633-0648-4bc2-ae18-8d318c02d8f1}.
+2024-07-30 13:11:50.638 +03:00 [DBG] Found key {581470d1-0777-4cb2-9d06-4327f023974b}.
+2024-07-30 13:11:50.656 +03:00 [DBG] Considering key {138de633-0648-4bc2-ae18-8d318c02d8f1} with expiration date 2024-10-04 15:27:47Z as default key.
+2024-07-30 13:11:50.716 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-30 13:11:50.848 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-07-30 13:11:50.853 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-07-30 13:11:50.867 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-07-30 13:11:50.878 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-07-30 13:11:50.886 +03:00 [DBG] Using key {138de633-0648-4bc2-ae18-8d318c02d8f1} as the default key.
+2024-07-30 13:11:50.889 +03:00 [DBG] Key ring with default key {138de633-0648-4bc2-ae18-8d318c02d8f1} was loaded during application startup.
+2024-07-30 13:11:51.057 +03:00 [INF] Now listening on: http://localhost:5228
+2024-07-30 13:11:51.068 +03:00 [DBG] Loaded hosting startup assembly WebApplication1
+2024-07-30 13:11:51.086 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-07-30 13:11:51.088 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-07-30 13:11:51.090 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-07-30 13:11:51.091 +03:00 [INF] Hosting environment: Development
+2024-07-30 13:11:51.093 +03:00 [INF] Content root path: C:\Users\NOUR-ALSHAM\source\MedadApi Projects\7\WebApplication1\WebApplication1
+2024-07-30 13:11:51.095 +03:00 [DBG] Hosting started
+2024-07-30 13:11:51.166 +03:00 [DBG] Connection id "0HN5GG03RIR7A" accepted.
+2024-07-30 13:11:51.202 +03:00 [DBG] Connection id "0HN5GG03RIR7A" received FIN.
+2024-07-30 13:11:51.266 +03:00 [DBG] Connection id "0HN5GG03RIR7A" started.
+2024-07-30 13:11:51.274 +03:00 [DBG] Connection id "0HN5GG03RIR7A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:51.361 +03:00 [DBG] Connection id "0HN5GG03RIR7A" disconnecting.
+2024-07-30 13:11:51.376 +03:00 [DBG] Connection id "0HN5GG03RIR7A" stopped.
+2024-07-30 13:11:52.763 +03:00 [DBG] Connection id "0HN5GG03RIR7B" accepted.
+2024-07-30 13:11:52.839 +03:00 [DBG] Connection id "0HN5GG03RIR7C" accepted.
+2024-07-30 13:11:52.842 +03:00 [DBG] Connection id "0HN5GG03RIR7B" started.
+2024-07-30 13:11:52.850 +03:00 [DBG] Connection id "0HN5GG03RIR7C" started.
+2024-07-30 13:11:52.949 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger - null null
+2024-07-30 13:11:54.053 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-07-30 13:11:54.108 +03:00 [DBG] No candidates found for the request path '/swagger'
+2024-07-30 13:11:54.113 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:54.164 +03:00 [DBG] Connection id "0HN5GG03RIR7C" completed keep alive response.
+2024-07-30 13:11:54.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger - 301 0 null 1225.1504ms
+2024-07-30 13:11:54.199 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/index.html - null null
+2024-07-30 13:11:54.214 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-07-30 13:11:54.216 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:54.541 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-07-30 13:11:54.548 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-07-30 13:11:54.679 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-07-30 13:11:54.689 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-07-30 13:11:54.691 +03:00 [DBG] Connection id "0HN5GG03RIR7C" completed keep alive response.
+2024-07-30 13:11:54.696 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/index.html - 200 null text/html;charset=utf-8 497.0382ms
+2024-07-30 13:11:54.714 +03:00 [DBG] Connection id "0HN5GG03RIR7D" accepted.
+2024-07-30 13:11:54.715 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - null null
+2024-07-30 13:11:54.719 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - null null
+2024-07-30 13:11:54.721 +03:00 [DBG] Connection id "0HN5GG03RIR7E" accepted.
+2024-07-30 13:11:54.721 +03:00 [DBG] Connection id "0HN5GG03RIR7D" started.
+2024-07-30 13:11:54.728 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2024-07-30 13:11:54.732 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2024-07-30 13:11:54.734 +03:00 [DBG] Connection id "0HN5GG03RIR7F" accepted.
+2024-07-30 13:11:54.734 +03:00 [DBG] Connection id "0HN5GG03RIR7E" started.
+2024-07-30 13:11:54.735 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - null null
+2024-07-30 13:11:54.737 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:54.738 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:54.741 +03:00 [DBG] Connection id "0HN5GG03RIR7F" started.
+2024-07-30 13:11:54.744 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-30 13:11:54.748 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2024-07-30 13:11:54.753 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/_vs/browserLink - null null
+2024-07-30 13:11:54.761 +03:00 [DBG] Connection id "0HN5GG03RIR7E" completed keep alive response.
+2024-07-30 13:11:54.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 25.105ms
+2024-07-30 13:11:54.762 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:54.790 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-07-30 13:11:54.796 +03:00 [DBG] Connection id "0HN5GG03RIR7C" completed keep alive response.
+2024-07-30 13:11:54.798 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui.css - 200 143943 text/css 78.349ms
+2024-07-30 13:11:54.818 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-07-30 13:11:54.821 +03:00 [DBG] Connection id "0HN5GG03RIR7B" completed keep alive response.
+2024-07-30 13:11:54.825 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 108.9309ms
+2024-07-30 13:11:54.832 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-07-30 13:11:54.837 +03:00 [DBG] Connection id "0HN5GG03RIR7D" completed keep alive response.
+2024-07-30 13:11:54.838 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 102.8838ms
+2024-07-30 13:11:54.979 +03:00 [DBG] Connection id "0HN5GG03RIR7F" completed keep alive response.
+2024-07-30 13:11:54.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/_vs/browserLink - 200 null text/javascript; charset=UTF-8 232.3825ms
+2024-07-30 13:11:55.419 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - null null
+2024-07-30 13:11:55.447 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-07-30 13:11:55.449 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:55.480 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - null null
+2024-07-30 13:11:55.497 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2024-07-30 13:11:55.518 +03:00 [DBG] Request did not match any endpoints
+2024-07-30 13:11:55.550 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-07-30 13:11:55.581 +03:00 [DBG] Connection id "0HN5GG03RIR7B" completed keep alive response.
+2024-07-30 13:11:55.637 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/favicon-32x32.png - 200 628 image/png 156.5961ms
+2024-07-30 13:11:55.881 +03:00 [DBG] Connection id "0HN5GG03RIR7F" completed keep alive response.
+2024-07-30 13:11:55.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5228/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 476.8317ms
+2024-07-30 13:11:59.794 +03:00 [DBG] Connection id "0HN5GG03RIR7E" received FIN.
+2024-07-30 13:11:59.794 +03:00 [DBG] Connection id "0HN5GG03RIR7C" received FIN.
+2024-07-30 13:11:59.795 +03:00 [DBG] Connection id "0HN5GG03RIR7D" received FIN.
+2024-07-30 13:11:59.795 +03:00 [DBG] Connection id "0HN5GG03RIR7B" received FIN.
+2024-07-30 13:11:59.795 +03:00 [DBG] Connection id "0HN5GG03RIR7F" received FIN.
+2024-07-30 13:11:59.799 +03:00 [DBG] Connection id "0HN5GG03RIR7E" disconnecting.
+2024-07-30 13:11:59.803 +03:00 [DBG] Connection id "0HN5GG03RIR7C" disconnecting.
+2024-07-30 13:11:59.807 +03:00 [DBG] Connection id "0HN5GG03RIR7D" disconnecting.
+2024-07-30 13:11:59.809 +03:00 [DBG] Connection id "0HN5GG03RIR7E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:59.810 +03:00 [DBG] Connection id "0HN5GG03RIR7C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:59.813 +03:00 [DBG] Connection id "0HN5GG03RIR7D" stopped.
+2024-07-30 13:11:59.815 +03:00 [DBG] Connection id "0HN5GG03RIR7B" disconnecting.
+2024-07-30 13:11:59.821 +03:00 [DBG] Connection id "0HN5GG03RIR7B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:59.821 +03:00 [DBG] Connection id "0HN5GG03RIR7F" disconnecting.
+2024-07-30 13:11:59.822 +03:00 [DBG] Connection id "0HN5GG03RIR7C" stopped.
+2024-07-30 13:11:59.822 +03:00 [DBG] Connection id "0HN5GG03RIR7E" stopped.
+2024-07-30 13:11:59.826 +03:00 [DBG] Connection id "0HN5GG03RIR7F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:59.829 +03:00 [DBG] Connection id "0HN5GG03RIR7D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-07-30 13:11:59.837 +03:00 [DBG] Connection id "0HN5GG03RIR7F" stopped.
+2024-07-30 13:11:59.837 +03:00 [DBG] Connection id "0HN5GG03RIR7B" stopped.
